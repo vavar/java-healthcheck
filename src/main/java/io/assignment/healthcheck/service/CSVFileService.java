@@ -3,6 +3,7 @@ package io.assignment.healthcheck.service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -10,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-@Component
+@Service
 public class CSVFileService {
     private final Logger log = LoggerFactory.getLogger(CSVFileService.class);
 
@@ -34,7 +35,7 @@ public class CSVFileService {
                 records.addAll(getRecordFromLine(scanner.nextLine()));
             }
         } catch (FileNotFoundException e) {
-            log.error("read file failed {0}", e);
+            log.error("read file failed", e);
         }
         return records.toArray(new String[0]);
     }

@@ -2,17 +2,15 @@ package io.assignment.healthcheck.service;
 
 import io.assignment.healthcheck.config.HealthCheckConfig;
 import io.assignment.healthcheck.model.HealthCheckReport;
-import lombok.AllArgsConstructor;
-import lombok.Data;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-@Component
+@Service
 public class ReportService {
 
     private final Logger log = LoggerFactory.getLogger(ReportService.class);
