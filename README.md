@@ -16,7 +16,7 @@ healthcheck.report.url=<Healthcheck report API>
 healthcheck.report.token=<LINE OAuth2 token>
 ```
 
-NOTE: for How-to `LINE OAuth2 token`, please see in bottom section.
+NOTE: for `How to generate LINE OAuth2 Token`, please see in bottom section.
 
 ### CSV file
 Create simple CSV file to provided website list for testing website healthcheck.
