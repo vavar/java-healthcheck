@@ -61,8 +61,9 @@ java -jar healthcheck-0.0.1-SNAPSHOT.jar test.txt
 
 ### Sequence Diagram
 
+![Healthcheck App Sequence Diagram](./doc/sequence.svg)
 
-## How to generate `LINE OAuth2 Token`
+## How to generate LINE OAuth2 Token
 
 1. create `Provider` from [Line Developer Console](https://developers.line.biz/console).
    For more information, please following this [Guide](https://developers.line.biz/en/docs/line-login/web/integrate-line-login/?fbclid=IwAR3GqvNrZoFjrfF_9kYApgrIiyJyB4W7a-Ua-eD9940hYa53qMPeitgknXQ)
@@ -99,8 +100,8 @@ ngrok http 3210
 https://access.line.me/oauth2/v2.1/authorize?response_type=code&client_id=<CHANNEL_ID>&redirect_uri=<NGROK_URL>&state=abc1234&scope=openid
 ```
 wheres:
-- CHANNEL_ID - provider channel ID
-- NGROK_URL - ngrok url which matched `Provider` callback
+- `CHANNEL_ID` - provider channel ID
+- `NGROK_URL` - ngrok url which matched `Provider` callback
 
 6. copy `code` from express server and use below `curl` command
 ```
@@ -111,10 +112,10 @@ curl -X POST \
   -d 'grant_type=authorization_code&code=<CODE>&redirect_uri=<ENCODED_NGROK_URL>&client_id=<CHANNEL_ID>&client_secret=<CHANNEL_SECRET>'
 ```
 wheres:
-- CODE - code from step 5
-- CHANNEL_ID - provider channel ID
-- CHANNEL_SECRET - provider channel secret
-- ENCODED_NGROK_URL - URI encoded url which matched `Provider` callback
+- `CODE` - code from `step#5`
+- `CHANNEL_ID` - provider channel ID
+- `CHANNEL_SECRET` - provider channel secret
+- `ENCODED_NGROK_URL` - URI encoded url which matched `Provider` callback
 
 7. OAuth code will be provided in expressJS server
 

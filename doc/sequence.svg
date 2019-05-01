@@ -1,0 +1,360 @@
+<svg id="mermaid-1556730432363" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:1080px;" viewBox="-50 -10 1080 636"><style>
+
+
+#mermaid-1556730432363 .label {
+  font-family: 'trebuchet ms', verdana, arial;
+  color: #333; }
+
+#mermaid-1556730432363 .node rect,
+#mermaid-1556730432363 .node circle,
+#mermaid-1556730432363 .node ellipse,
+#mermaid-1556730432363 .node polygon {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1px; }
+
+#mermaid-1556730432363 .node.clickable {
+  cursor: pointer; }
+
+#mermaid-1556730432363 .arrowheadPath {
+  fill: #333333; }
+
+#mermaid-1556730432363 .edgePath .path {
+  stroke: #333333;
+  stroke-width: 1.5px; }
+
+#mermaid-1556730432363 .edgeLabel {
+  background-color: #e8e8e8; }
+
+#mermaid-1556730432363 .cluster rect {
+  fill: #ffffde !important;
+  stroke: #aaaa33 !important;
+  stroke-width: 1px !important; }
+
+#mermaid-1556730432363 .cluster text {
+  fill: #333; }
+
+#mermaid-1556730432363 div.mermaidTooltip {
+  position: absolute;
+  text-align: center;
+  max-width: 200px;
+  padding: 2px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 12px;
+  background: #ffffde;
+  border: 1px solid #aaaa33;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 100; }
+
+#mermaid-1556730432363 .actor {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1556730432363 text.actor {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1556730432363 .actor-line {
+  stroke: grey; }
+
+#mermaid-1556730432363 .messageLine0 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1556730432363 .messageLine1 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1556730432363 #arrowhead {
+  fill: #333; }
+
+#mermaid-1556730432363 #crosshead path {
+  fill: #333 !important;
+  stroke: #333 !important; }
+
+#mermaid-1556730432363 .messageText {
+  fill: #333;
+  stroke: none; }
+
+#mermaid-1556730432363 .labelBox {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1556730432363 .labelText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1556730432363 .loopText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1556730432363 .loopLine {
+  stroke-width: 2;
+  stroke-dasharray: '2 2';
+  stroke: #CCCCFF; }
+
+#mermaid-1556730432363 .note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+
+#mermaid-1556730432363 .noteText {
+  fill: black;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 14px; }
+
+#mermaid-1556730432363 .activation0 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1556730432363 .activation1 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1556730432363 .activation2 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+
+#mermaid-1556730432363 .section {
+  stroke: none;
+  opacity: 0.2; }
+
+#mermaid-1556730432363 .section0 {
+  fill: rgba(102, 102, 255, 0.49); }
+
+#mermaid-1556730432363 .section2 {
+  fill: #fff400; }
+
+#mermaid-1556730432363 .section1,
+#mermaid-1556730432363 .section3 {
+  fill: white;
+  opacity: 0.2; }
+
+#mermaid-1556730432363 .sectionTitle0 {
+  fill: #333; }
+
+#mermaid-1556730432363 .sectionTitle1 {
+  fill: #333; }
+
+#mermaid-1556730432363 .sectionTitle2 {
+  fill: #333; }
+
+#mermaid-1556730432363 .sectionTitle3 {
+  fill: #333; }
+
+#mermaid-1556730432363 .sectionTitle {
+  text-anchor: start;
+  font-size: 11px;
+  text-height: 14px; }
+
+
+#mermaid-1556730432363 .grid .tick {
+  stroke: lightgrey;
+  opacity: 0.3;
+  shape-rendering: crispEdges; }
+
+#mermaid-1556730432363 .grid path {
+  stroke-width: 0; }
+
+
+#mermaid-1556730432363 .today {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px; }
+
+
+
+#mermaid-1556730432363 .task {
+  stroke-width: 2; }
+
+#mermaid-1556730432363 .taskText {
+  text-anchor: middle;
+  font-size: 11px; }
+
+#mermaid-1556730432363 .taskTextOutsideRight {
+  fill: black;
+  text-anchor: start;
+  font-size: 11px; }
+
+#mermaid-1556730432363 .taskTextOutsideLeft {
+  fill: black;
+  text-anchor: end;
+  font-size: 11px; }
+
+
+#mermaid-1556730432363 .taskText0,
+#mermaid-1556730432363 .taskText1,
+#mermaid-1556730432363 .taskText2,
+#mermaid-1556730432363 .taskText3 {
+  fill: white; }
+
+#mermaid-1556730432363 .task0,
+#mermaid-1556730432363 .task1,
+#mermaid-1556730432363 .task2,
+#mermaid-1556730432363 .task3 {
+  fill: #8a90dd;
+  stroke: #534fbc; }
+
+#mermaid-1556730432363 .taskTextOutside0,
+#mermaid-1556730432363 .taskTextOutside2 {
+  fill: black; }
+
+#mermaid-1556730432363 .taskTextOutside1,
+#mermaid-1556730432363 .taskTextOutside3 {
+  fill: black; }
+
+
+#mermaid-1556730432363 .active0,
+#mermaid-1556730432363 .active1,
+#mermaid-1556730432363 .active2,
+#mermaid-1556730432363 .active3 {
+  fill: #bfc7ff;
+  stroke: #534fbc; }
+
+#mermaid-1556730432363 .activeText0,
+#mermaid-1556730432363 .activeText1,
+#mermaid-1556730432363 .activeText2,
+#mermaid-1556730432363 .activeText3 {
+  fill: black !important; }
+
+
+#mermaid-1556730432363 .done0,
+#mermaid-1556730432363 .done1,
+#mermaid-1556730432363 .done2,
+#mermaid-1556730432363 .done3 {
+  stroke: grey;
+  fill: lightgrey;
+  stroke-width: 2; }
+
+#mermaid-1556730432363 .doneText0,
+#mermaid-1556730432363 .doneText1,
+#mermaid-1556730432363 .doneText2,
+#mermaid-1556730432363 .doneText3 {
+  fill: black !important; }
+
+
+#mermaid-1556730432363 .crit0,
+#mermaid-1556730432363 .crit1,
+#mermaid-1556730432363 .crit2,
+#mermaid-1556730432363 .crit3 {
+  stroke: #ff8888;
+  fill: red;
+  stroke-width: 2; }
+
+#mermaid-1556730432363 .activeCrit0,
+#mermaid-1556730432363 .activeCrit1,
+#mermaid-1556730432363 .activeCrit2,
+#mermaid-1556730432363 .activeCrit3 {
+  stroke: #ff8888;
+  fill: #bfc7ff;
+  stroke-width: 2; }
+
+#mermaid-1556730432363 .doneCrit0,
+#mermaid-1556730432363 .doneCrit1,
+#mermaid-1556730432363 .doneCrit2,
+#mermaid-1556730432363 .doneCrit3 {
+  stroke: #ff8888;
+  fill: lightgrey;
+  stroke-width: 2;
+  cursor: pointer;
+  shape-rendering: crispEdges; }
+
+#mermaid-1556730432363 .doneCritText0,
+#mermaid-1556730432363 .doneCritText1,
+#mermaid-1556730432363 .doneCritText2,
+#mermaid-1556730432363 .doneCritText3 {
+  fill: black !important; }
+
+#mermaid-1556730432363 .activeCritText0,
+#mermaid-1556730432363 .activeCritText1,
+#mermaid-1556730432363 .activeCritText2,
+#mermaid-1556730432363 .activeCritText3 {
+  fill: black !important; }
+
+#mermaid-1556730432363 .titleText {
+  text-anchor: middle;
+  font-size: 18px;
+  fill: black; }
+
+#mermaid-1556730432363 g.classGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 10px; }
+
+#mermaid-1556730432363 g.classGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1556730432363 g.classGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1556730432363 .classLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1556730432363 .classLabel .label {
+  fill: #9370DB;
+  font-size: 10px; }
+
+#mermaid-1556730432363 .relation {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1556730432363 #compositionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1556730432363 #compositionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1556730432363 #aggregationStart {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1556730432363 #aggregationEnd {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1556730432363 #dependencyStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1556730432363 #dependencyEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1556730432363 #extensionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1556730432363 #extensionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1556730432363 .commit-id,
+#mermaid-1556730432363 .commit-msg,
+#mermaid-1556730432363 .branch-label {
+  fill: lightgrey;
+  color: lightgrey; }
+</style><style>#mermaid-1556730432363 {
+    color: rgba(0, 0, 0, 0.65);
+    font: ;
+  }</style><g></g><g><line id="actor1730" x1="75" y1="5" x2="75" y2="625" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="75" dy="0">User</tspan></text></g><g><line id="actor1731" x1="275" y1="5" x2="275" y2="625" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="200" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="275" dy="0">HealthcheckApp</tspan></text></g><g><line id="actor1732" x1="475" y1="5" x2="475" y2="625" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="400" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="475" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="475" dy="0">CSVFileService</tspan></text></g><g><line id="actor1733" x1="675" y1="5" x2="675" y2="625" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="600" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="675" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="675" dy="0">HealthCheckService</tspan></text></g><g><line id="actor1734" x1="875" y1="5" x2="875" y2="625" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="800" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="875" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="875" dy="0">ReportService</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><g><text x="175" y="93" class="messageText" style="text-anchor: middle;">command line</text><line x1="75" y1="100" x2="275" y2="100" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><rect x="270" y="102" fill="#EDF2AE" stroke="#666" width="10" height="438" rx="0" ry="0" class="activation0"></rect></g><g><text x="377.5" y="128" class="messageText" style="text-anchor: middle;">load CSV File</text><line x1="280" y1="135" x2="475" y2="135" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><rect x="470" y="137" fill="#EDF2AE" stroke="#666" width="10" height="33" rx="0" ry="0" class="activation0"></rect></g><g><text x="375" y="163" class="messageText" style="text-anchor: middle;">URL List</text><line x1="470" y1="170" x2="280" y2="170" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><text x="477.5" y="198" class="messageText" style="text-anchor: middle;">check for URLs</text><line x1="280" y1="205" x2="675" y2="205" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><rect x="670" y="207" fill="#EDF2AE" stroke="#666" width="10" height="163" rx="0" ry="0" class="activation0"></rect></g><g><text x="680" y="233" class="messageText" style="text-anchor: middle;">async check URL</text><path d="M 680,240 C 740,230 740,270 680,260" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></path></g><g><text x="680" y="298" class="messageText" style="text-anchor: middle;">summary using stream()</text><path d="M 680,305 C 740,295 740,335 680,325" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></path></g><g><text x="475" y="363" class="messageText" style="text-anchor: middle;">return Healthcheck Result</text><line x1="670" y1="370" x2="280" y2="370" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><text x="577.5" y="398" class="messageText" style="text-anchor: middle;">send API report</text><line x1="280" y1="405" x2="875" y2="405" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><rect x="870" y="407" fill="#EDF2AE" stroke="#666" width="10" height="98" rx="0" ry="0" class="activation0"></rect></g><g><text x="880" y="433" class="messageText" style="text-anchor: middle;">external API call</text><path d="M 880,440 C 940,430 940,470 880,460" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></path></g><g><text x="575" y="498" class="messageText" style="text-anchor: middle;">api response</text><line x1="870" y1="505" x2="280" y2="505" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><text x="172.5" y="533" class="messageText" style="text-anchor: middle;">display result</text><line x1="270" y1="540" x2="75" y2="540" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><rect x="0" y="560" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="592.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="75" dy="0">User</tspan></text></g><g><rect x="200" y="560" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="592.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="275" dy="0">HealthcheckApp</tspan></text></g><g><rect x="400" y="560" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="475" y="592.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="475" dy="0">CSVFileService</tspan></text></g><g><rect x="600" y="560" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="675" y="592.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="675" dy="0">HealthCheckService</tspan></text></g><g><rect x="800" y="560" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="875" y="592.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="875" dy="0">ReportService</tspan></text></g></svg>
