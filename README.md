@@ -21,7 +21,7 @@ NOTE: for `How to generate LINE OAuth2 Token`, please see in bottom section.
 ### CSV file
 Create simple CSV file to provided website list for testing website healthcheck.
 
-#### Example file - test.txt
+#### Example file - test.csv
 ```
 https://www.google.com
 https://www.facebook.com
@@ -36,12 +36,12 @@ http://where-is-whis-domain.com
 
 ### Run from source code
 ```
-./mvnw spring-boot:run -Dspring-boot.run.arguments=test.txt
+./mvnw spring-boot:run -Dspring-boot.run.arguments=test.csv
 ```
 
 ### Run from binary
 ```
-java -jar healthcheck-0.0.1-SNAPSHOT.jar test.txt
+java -jar healthcheck-0.0.1-SNAPSHOT.jar test.csv
 ```
 
 ## Development

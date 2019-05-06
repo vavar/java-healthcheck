@@ -16,10 +16,8 @@ import java.util.Arrays;
 import java.util.concurrent.TimeUnit;
 
 @SpringBootApplication
-@EnableAsync
+@Slf4j
 public class HealthCheckApplication implements CommandLineRunner {
-
-	private static Logger LOG = LoggerFactory.getLogger(HealthCheckApplication.class);
 
 	@Autowired
 	private CSVFileService csvFileService;
